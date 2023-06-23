@@ -1,0 +1,158 @@
+.articulo1 {
+    display: flex;
+    background-color: #000;
+    color: #f7f7f7;
+}
+
+.articulo2 {
+    display: flex;
+    background-color: #d20000;
+    color: #f7f7f7;
+}
+
+.articulo2 #seccion2 {
+    width: 50%;
+    text-align: center;
+}
+
+.articulo2 #seccion1 #seccion2 h2 {
+    margin-top: 40px;
+}
+
+#seccion1 {
+    width: 50%;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.articulo1 #seccion1 h2 {
+    margin-top: 80px;
+}
+
+#seccion1 p {
+    margin-top: 30px;
+}
+
+#seccion2 {
+    width: 50%;
+    text-align: right;
+}
+
+#seccion2 img{
+    width: 90%;
+}
+
+#boton-cotizar {
+    background-color: #f7f7f7;
+    color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 40px;
+    font-size: 24px;
+    padding: 10px 15px;
+}
+
+#boton-cotizar:hover {
+    background-color: #eaeaea;
+    padding: 11px 16px;
+    transition: all 0.2s ease;
+}
+
+.tabla-modelos h2{
+    text-align: center;
+    margin: 30px 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: rgb(255, 0, 0);
+    color: #f7f7f7;
+    
+}
+
+th {
+    padding: 10px 15px;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+
+tr {
+    border-bottom: 3px solid rgb(255, 0, 0);
+}
+
+td #modelo {
+    font-weight: bold;
+}
+
+td button {
+    background-color: rgb(255, 0, 0);
+    color: #f7f7f7;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+td button:hover {
+    background-color: #f7f7f7;
+    color: rgb(255, 0, 0);
+    transition: all 0.4s ease;
+} 
+
+li {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.form-contact h2 {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 50px;
+    
+}
+
+form {
+    display: flex;
+    width: 700px;
+    flex-direction: column;
+    align-items: center;
+}
+
+fieldset {
+    padding:10px 20px;
+    margin: 20px;
+}
+
+form button {
+    background-color: #d20000;
+    color: #f7f7f7;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    align-items: center;
+}
+
+form button:hover {
+    background-color: #f7f7f7;
+    color: #d20000;
+    transition: all 0.4s ease;
+}
+
+input {
+    margin: 10px;
+}
+
+textarea {
+    resize: none;
+}
